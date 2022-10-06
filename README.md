@@ -6,4 +6,8 @@ I am currently working as an Editorial Assitant for UW Madison, and I am leading
 
 This year, I am developing my machine learning skills. To achieve this goal, I am taking mathematical courses in Data Science focuisng on causal interference, matrix methods, and applied machine learning. 
 
-asdf
+NOTE FOR HW@ SUBMISSION: I have realized that the structure of my website is terminally incorrect and unable to support the necessary page formatting. On Thursday I will be doing a complete rebuilding of the website and transferring of my content. H
+
+Homework 2: 
+
+
