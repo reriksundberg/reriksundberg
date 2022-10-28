@@ -31,8 +31,6 @@ Thus, using my 3 assumptions, we know that E[Y(a)] = E[Y|A=a].
 
 Pending Questions for Professor and Peer Review
 
-<img width="623" alt="image" src="https://user-images.githubusercontent.com/113559546/198450234-af3ea2ca-b973-468c-8a31-56a8db677bd5.png">
-
 (Is the proof literally just the proof of potential outcomes?
 
 Am I missing something?
