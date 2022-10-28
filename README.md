@@ -14,14 +14,18 @@ Importantly, I will assume that the time zone a school is located in does not ha
 I will make the following assumptions because I am using a potential outcomes framework. 
 
 # Assumption 1: Positivity 
+
 I will assume there are not negative outcomes. This is reasonable because all test scores are positive, and the variable of time zone will be binary. Furthermore, all variables in the X matrix will be greater than zero. 
 
 # Assumption 2: Stable Unit Treatment Value
+
 I will assume that mapping of time zone onto test scores is a real-valued measurable function. This assumption is reasonable because test score data already exists. In the most extreme case, we would simply have on effect of our treatment on test scores.
 
 (?Is more depth required here? Should the 4 points of STUVA be individually justified?)
+
 # Assumption 3: Exchangeability.
-	I will assume that the potential outcomes Y(a) are independent from the treatment assignment A. This assumption should hold. Whether a school is physically in western or eastern Kentucky alone should not give inform us how they would perform if they were in a different time zone. However, the time zone of a school in Kentucky may actually provide information on if a school is in Appalachia—a region which lacks a good education system. Therefore, this is the most questionable of my assumptions.  This assumption allows my SWIG to be true. 
+
+I will assume that the potential outcomes Y(a) are independent from the treatment assignment A. This assumption should hold. Whether a school is physically in western or eastern Kentucky alone should not give inform us how they would perform if they were in a different time zone. However, the time zone of a school in Kentucky may actually provide information on if a school is in Appalachia—a region which lacks a good education system. Therefore, this is the most questionable of my assumptions.  This assumption allows my SWIG to be true. 
 	
 Identification
 
