@@ -7,4 +7,4 @@ Importantly, I will assume that the time zone a school is located in does not ha
   Let Y(a) represent the outcome given treatment A. Y(a) will be the average high school standardized test scores of a school. let A represent the position of the sun at a school’s start time. In other words, let A represent the time zone a school is in. Let X be a matrix of all other variables affecting the outcome. The variables in X will include parental education, wealth, etc. 
 	Applying this framework, we can create the following single world intervention graph:
 
-<img width="306" alt="image" src="https://user-images.githubusercontent.com/113559546/198442446-e658b695-04f9-4827-9ac1-b4c93f12e51d.png">
+	<img width="306" alt="image" src="https://user-images.githubusercontent.com/113559546/198442446-e658b695-04f9-4827-9ac1-b4c93f12e51d.png">
