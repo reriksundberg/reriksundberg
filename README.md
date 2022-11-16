@@ -1,45 +1,9 @@
-# Identification of the effect of timezones on tests scores
+# Estimation
 
-## Introduction
-  I will analyze how the position of the sun at a school’s start time effects test scores. I will investigate this as a potential outcomes problem. Time zone will be the treatment/intervention and test score will be the outcome. Time zones are generally influenced by state lines. However, there are multiple states which are divided by time zones. Kentucky is a state which has a large quantity of schools in both central time zone and eastern time zone. Education is heavily influenced by state government. By comparing schools only in Kentucky, I will remove the significant effect of state policy on test scores. This will help isolate the effect timezones have on testscores.
-Importantly, I will assume that the time zone a school is located in does not have an association with other variables which effect educational outcomes (e.g. district wealth). I believe this assumption is reasonable. Physically being in eastern or western Kentucky should not affect test scores. 
-  Let Y(a) represent the outcome given treatment A. Y(a) will be the average high school standardized test scores of a school. let A represent the position of the sun at a school’s start time. In other words, let A represent the time zone a school is in. Let X be a matrix of all other variables effecting the outcome. The variables in X will include parental education, wealth, etc. 
-	Applying this framework, we can create the following single world intervention graph:
+To conduct Estimation, I will have my treatment Variable A, my outcome assignment Y, and my adjustment variables X. As I have discussed prior, I assume Y(A) is well-defined and has SUTVA. With Identification, I know that E[Y | A=a] = E[Y(a)]
+ 
+Thus, the ideal data set should include X, A, and Y for every observation. X is a vectored value containing data known to effect average standardized test scores. This would include measures such as income, 
 
-<img width="306" alt="image" src="https://user-images.githubusercontent.com/113559546/198442446-e658b695-04f9-4827-9ac1-b4c93f12e51d.png">
+Thus, to implement this algorithm, we will apply a simple linear regression. We can then identify the effect of our treatment A by examining the parameter. 
 
-## Formal Assumptions
-
-I will make the following assumptions because I am using a potential outcomes framework. 
-
-### Assumption 1: Positivity 
-
-I will assume there are not negative outcomes. This is reasonable because all test scores are positive, and the variable of time zone will be binary. Furthermore, all variables in the X matrix will be greater than zero. 
-
-### Assumption 2: Stable Unit Treatment Value
-
-I will assume that mapping of time zone onto test scores is a real-valued measurable function. This assumption is reasonable because test score data already exists. In the most extreme case, our treatment would have no effect on test scores.
-
-(?Is more depth required here? Should the 4 points of STUVA be individually justified?)
-
-### Assumption 3: Exchangeability.
-
-I will assume that the potential outcomes Y(a) are independent from the treatment assignment A. This assumption should hold. Whether a school is physically in western or eastern Kentucky alone should not give inform us how they would perform if they were in a different time zone. However, the time zone of a school in Kentucky may actually provide information on if a school is in Appalachia—a region which lacks a good education system. Therefore, this is the most questionable of my assumptions. This assumption allows my SWIG to be true. 
-	
-## Identification
-
-First, my swig proves that A|a and X are independent because the outcome Y(a) is a collider. 
-
-Thus, using my 3 assumptions, we know that E[Y(a)] = E[Y|A=a]. 
-
-
------------------------
-Pending Questions for Professor and Peer Review
-
-(Is the proof literally just the proof of potential outcomes?
-
-Am I missing something?
-
-Should I have this proof copied and typed out?
-
-I know the structure of my problems makes identification very easy as I have a simple SWIG, but did I correctly apply the rules?)
+(should I discuss the possiblility of other curves being more accurate representations?)
