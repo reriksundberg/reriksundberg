@@ -36,7 +36,7 @@ I will assume that mapping of time zone onto test scores is a real-valued measur
 
 
 ### Assumption 3: Exchangeability
-	I will assume that the potential outcomes Y(a) are independent from the treatment assignment A. This assumption should hold. Whether a school is physically in western or eastern Kentucky alone should not give inform us how they would perform if they were in a different time zone. However, the time zone of a school in Kentucky may actually provide information on if a school is in Appalachia—a region which lacks a good education system. Therefore, this is the most questionable of my assumptions.  This assumption allows my SWIG to be true. 
+I will assume that the potential outcomes Y(a) are independent from the treatment assignment A. This assumption should hold. Whether a school is physically in western or eastern Kentucky alone should not give inform us how they would perform if they were in a different time zone. However, the time zone of a school in Kentucky may actually provide information on if a school is in Appalachia—a region which lacks a good education system. Therefore, this is the most questionable of my assumptions.  This assumption allows my SWIG to be true. 
 
 ## Identification Proof
 
@@ -45,7 +45,7 @@ First, my swig proves that A|a and X are independent because the outcome Y(a) is
 Thus, using my 3 assumptions, we know that E[Y(a)] = E[Y|A=a]. 
 
 
-# Estimation
+# IV. Estimation
 
 To conduct Estimation, I will have my treatment Variable A, my outcome assignment Y, and my adjustment variables X. As I have discussed prior, I assume Y(A) is well-defined and has SUTVA. With Identification, I know that E[Y | A=a] = E[Y(a)]
  
