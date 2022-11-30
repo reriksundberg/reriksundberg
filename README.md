@@ -49,7 +49,8 @@ To conduct Estimation, I will have my treatment Variable A, my outcome assignmen
 
 A regression would be suitable for estimating Y(A). This is because it would regularize for the myriad of other variables affecting test scores. However, for this to work we should include all features which impact a high schools ACT scores in our X matrix. These include family income, parental education, disruptive home situations, and educational achievement (Source 1). If we have a complete dataset, we could then run a regression which would give us the effect of our treatment A. 
 
-Unfortunately, no such dataset exists. 
+Unfortunately, no such dataset exists. However, it is worth noting the expected properties of this regression. First, the errors should be normally distributed. We must also examine any correlations between variables in our X vector to assure there is no auto correlation. A regression should perform well in this setting. Regressions are on of the most widely used tools in data analysis due to their efficiency and simplicity. However, it is worth noting some of the downsides. Due to the massive variability between schools, the effect of our treatment may be dwarfed by more important variables (such as income). This may make it hard to identify the casual effect. 
+
 
 Works Cited:
 
