@@ -59,4 +59,7 @@ Works Cited:
 # V. Sensitivity
 
 Sensitivity analysis is essentail for this experiment. Becuase of the difficulty of identifying this variable--even when accounting for the experiment design--sensitivity will be required to determine the robustness of results. To accomplish this, we will use Manski Sensitivity. If my assumptions are violated, then the results of my regression will be called into question. In particular, I assume that the variability between schools on opposite sides of the time zones can be accounted for with my dataset. If this is not the case, the results of my regression become far more questionable. This is partially becuase my treatment A indirectly measures differences between regions of Kentucky--despite my efforts to ensure that only the sun's effect is measured. Should this assumption be violated, my indentification will fail. This is why having a robust dataset is critical. 
+
 An alternative approach would be to study schools districts in each time zone which have a high similarity. This would help strengthen the assumption that there is no unmeasured confounding variable associated with geographic location that effects our outcome. This would reduce the sample size, but it would strengthen the assumption. In this scenario, the biggest difficulty faced would be a lack of data which adequately explains a school's average ACT score. In this scenario, we would be unable to identifty the casual effect of our treatment becuase we would lack a model which explains test scores.
+
+
