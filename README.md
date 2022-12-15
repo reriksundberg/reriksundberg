@@ -62,4 +62,6 @@ Sensitivity analysis is essentail for this experiment. Becuase of the difficulty
 
 An alternative approach would be to study schools districts in each time zone which have a high similarity. This would help strengthen the assumption that there is no unmeasured confounding variable associated with geographic location that effects our outcome. This would reduce the sample size, but it would strengthen the assumption. In this scenario, the biggest difficulty faced would be a lack of data which adequately explains a school's average ACT score. In this scenario, we would be unable to identifty the casual effect of our treatment becuase we would lack a model which explains test scores.
 
+# VI. Conclusion
 
+In this project, I propose a methodology for identfying the effect of starting times on academic performance. Unfortunately, my biggest limitaiton is a lack of data. However, if public databases containing the necessary information are established in the future, I will be able to build my regression and identify the casual effect. 
